@@ -25,7 +25,7 @@ class SearchScreen extends StatelessWidget {
               TextField(
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
-                  hintText: "Search for a city or airport",
+                  hintText: "Search for a city ",
                   hintStyle: const TextStyle(color: Colors.white70),
                   filled: true,
                   fillColor: Colors.white.withOpacity(0.1),
@@ -44,21 +44,21 @@ class SearchScreen extends StatelessWidget {
                 child: ListView(
                   children: const [
                     WeatherCard(
-                      city: "Bengaluru, India",
+                      city: "Karachii",
                       temp: "19°",
                       highLow: "H:24°  L:18°",
                       condition: "Mid Rain",
                       icon: Icons.cloud,
                     ),
                     WeatherCard(
-                      city: "Chennai, India",
+                      city: "Lahore",
                       temp: "22°",
                       highLow: "H:26°  L:18°",
                       condition: "Fast Wind",
                       icon: Icons.cloud,
                     ),
                     WeatherCard(
-                      city: "Mumbai, India",
+                      city: "Islamabad",
                       temp: "29°",
                       highLow: "H:32°  L:27°",
                       condition: "Sunny Rain",
